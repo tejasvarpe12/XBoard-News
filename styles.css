@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  nav {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  #accordion {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .card-description {
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+  }
+  
+  .carousel-control-prev-icon:before,
+  .carousel-control-next-icon:before {
+    color: white;
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
